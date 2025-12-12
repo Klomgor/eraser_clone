@@ -15,6 +15,7 @@ import {
   Link2,
   MoreHorizontal,
   Save,
+  Layers,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -38,7 +39,7 @@ const WorkSpaceHeader = ({
       {/* file name portion */}
       <div className="flex space-x-2 items-center justify-start w-full">
         <Link href="/dashboard" className="flex space-x-2 items-center  ">
-          <img src="/logo.svg" alt="logo" className="w-8 h-8" />
+          <Layers className="text-blue-500" size={32} />
           <div>
             <h1 className="text-sm font-medium">
               {file ? file.fileName : "Untitled"}

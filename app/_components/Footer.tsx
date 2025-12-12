@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { Layers } from "lucide-react";
 
 const Footer = () => {
   const footerLinks = [
@@ -68,12 +68,7 @@ const Footer = () => {
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <Image
-              src={"./footer_logo.svg"}
-              alt="LiveCanvas"
-              height={130}
-              width={130}
-            />
+            <Layers className="text-blue-500" size={80} />
             <p className="mt-4 max-w-xs text-gray-500">
               Documents & diagrams for engineering teams
             </p>

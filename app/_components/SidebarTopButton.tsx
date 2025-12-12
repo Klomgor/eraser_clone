@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Layers } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import {
   DropdownMenu,
@@ -71,7 +71,7 @@ const SidebarTopButton = ({ user, setActiveTeamInfo }: any) => {
             { "bg-neutral-600": isOpen }
           )}
         >
-          <img src="/logo.svg" alt="logo" className="w-8 h-8" />
+          <Layers className="text-blue-500" size={32} />
           <h2 className="text-sm font-semibold">{activeTeam?.teamName}</h2>
           <ChevronDown size={16} />
         </div>
