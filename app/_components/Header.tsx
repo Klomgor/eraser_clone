@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import {
   RegisterLink,
@@ -6,6 +5,7 @@ import {
 } from "@kinde-oss/kinde-auth-nextjs/components";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { Button } from "@/components/ui/button";
+import { Layers } from "lucide-react";
 
 const Header = async () => {
   const { getUser } = getKindeServerSession();
@@ -13,9 +13,9 @@ const Header = async () => {
   return (
     <header className="z-10 backdrop-blur-xl w-full fixed">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <a className="flex gap-2" href="#">
-          <Image src={"./logo.svg"} alt="Eraser.io" width={30} height={30} />
-          <p className="text-white font-semibold">eraser</p>
+        <a className="flex gap-2 items-center" href="#">
+          <Layers className="text-blue-500" size={30} />
+          <p className="text-white font-semibold">LiveCanvas</p>
         </a>
 
         <div className="flex flex-1 items-center justify-end md:justify-between">

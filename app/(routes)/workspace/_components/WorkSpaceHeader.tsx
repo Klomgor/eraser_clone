@@ -15,6 +15,7 @@ import {
   Link2,
   MoreHorizontal,
   Save,
+  Layers,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -38,7 +39,7 @@ const WorkSpaceHeader = ({
       {/* file name portion */}
       <div className="flex space-x-2 items-center justify-start w-full">
         <Link href="/dashboard" className="flex space-x-2 items-center  ">
-          <img src="/logo.svg" alt="logo" className="w-8 h-8" />
+          <Layers className="text-blue-500" size={32} />
           <div>
             <h1 className="text-sm font-medium">
               {file ? file.fileName : "Untitled"}
@@ -98,7 +99,7 @@ const WorkSpaceHeader = ({
       {/* right most */}
       <div className="w-full space-x-4  flex items-center  justify-end">
         <a
-          href="https://github.com/kaifcoder/eraser_clone"
+          href="https://github.com/kaifcoder/livecanvas"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -136,8 +137,7 @@ const WorkSpaceHeader = ({
               <div className="space-y-2">
                 <h1 className="text-sm font-semibold">Info</h1>
                 <p className="text-xs text-neutral-400">
-                  This is just a clone of eraser, made with nextjs and
-                  tailwindcss
+                  LiveCanvas is a modern collaborative whiteboard and diagramming tool for engineering teams, built with Next.js and Tailwind CSS.
                 </p>
               </div>
             </div>
