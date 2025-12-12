@@ -98,7 +98,7 @@ const WorkSpaceHeader = ({
       {/* right most */}
       <div className="w-full space-x-4  flex items-center  justify-end">
         <a
-          href="https://github.com/kaifcoder/eraser_clone"
+          href="https://github.com/kaifcoder/livecanvas"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -136,8 +136,7 @@ const WorkSpaceHeader = ({
               <div className="space-y-2">
                 <h1 className="text-sm font-semibold">Info</h1>
                 <p className="text-xs text-neutral-400">
-                  This is just a clone of eraser, made with nextjs and
-                  tailwindcss
+                  LiveCanvas is a modern collaborative whiteboard and diagramming tool for engineering teams, built with Next.js and Tailwind CSS.
                 </p>
               </div>
             </div>

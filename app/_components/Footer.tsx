@@ -70,7 +70,7 @@ const Footer = () => {
           <div>
             <Image
               src={"./footer_logo.svg"}
-              alt="Eraser.io"
+              alt="LiveCanvas"
               height={130}
               width={130}
             />

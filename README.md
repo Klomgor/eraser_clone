@@ -1,6 +1,8 @@
-# LiveCanvas made with NextJS 14
+# LiveCanvas - Collaborative Whiteboard & Diagramming Tool
 
-Welcome to the repository for livecanvas inspired by eraser.io, built with a modern stack including Next.js, Tailwind CSS, Shadcn/UI, Convex Database, and Kinde Authentication. This project is a showcase of cutting-edge web technologies and collaborative open-source development.
+LiveCanvas is a modern, feature-rich collaborative whiteboard and diagramming application built for engineering teams. Create documents, diagrams, and visual content together in real-time using a powerful stack including Next.js, Tailwind CSS, Shadcn/UI, Convex Database, and Kinde Authentication.
+
+This project showcases cutting-edge web technologies and collaborative open-source development, providing teams with the tools they need to visualize ideas and collaborate effectively.
 
 ## Walkthrough
 
