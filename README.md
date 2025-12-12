@@ -4,10 +4,6 @@ LiveCanvas is a modern, feature-rich collaborative whiteboard and diagramming ap
 
 This project showcases cutting-edge web technologies and collaborative open-source development, providing teams with the tools they need to visualize ideas and collaborate effectively.
 
-## Walkthrough
-
-https://github.com/kaifcoder/livecanvas/assets/57701861/5aa989ef-dc9d-444a-9fd1-7b89a2b86168
-
 ## Getting Started
 
 First, run the development server:
